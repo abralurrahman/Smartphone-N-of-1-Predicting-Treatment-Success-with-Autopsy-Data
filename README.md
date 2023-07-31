@@ -2,14 +2,10 @@
 #  Autopsy Data Collection Guideline
 
 ##  Requirements (Software needed):
-Autopsy:  [to read and analyze the data from Android and iPhone devices]
-https://www.autopsy.com/download/
-Free ISO Creator:  [to make disk image file]
-http://www.freeisocreator.com/
-DB SQL lite:    [to see data in more detail which save as db file]
-https://sqlitebrowser.org/dl/ 
-HxD Freeware hex editor and disk editor [to see decoded data]
-https://mh-nexus.de/en/hxd/
+1.  Autopsy:  [to read and analyze the data from Android and iPhone devices] https://www.autopsy.com/download/
+2.  Free ISO Creator:  [to make disk image file] http://www.freeisocreator.com/
+3.  DB SQL lite:    [to see data in more detail which save as db file] https://sqlitebrowser.org/dl/ 
+4.  HxD Freeware hex editor and disk editor [to see decoded data] https://mh-nexus.de/en/hxd/
 
 ##  Data collection process:
 1.	Prepare the Device:
