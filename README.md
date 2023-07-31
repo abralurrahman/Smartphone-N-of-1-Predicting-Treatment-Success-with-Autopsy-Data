@@ -1,7 +1,7 @@
-## Smartphone-N-of-1-Predicting-Treatment-Success-with-Autopsy-Data
-##  Autopsy Data Collection Guideline
+# Smartphone-N-of-1-Predicting-Treatment-Success-with-Autopsy-Data
+#  Autopsy Data Collection Guideline
 
-#  Requirements (Software needed):
+##  Requirements (Software needed):
 Autopsy:  [to read and analyze the data from Android and iPhone devices]
 https://www.autopsy.com/download/
 Free ISO Creator:  [to make disk image file]
@@ -11,7 +11,7 @@ https://sqlitebrowser.org/dl/
 HxD Freeware hex editor and disk editor [to see decoded data]
 https://mh-nexus.de/en/hxd/
 
-#  Data collection process:
+##  Data collection process:
 1.	Prepare the Device:
 Ensure the Android or iPhone device you want to collect data from is fully charged and connected to a computer with a USB cable.
 2.	Create Disk Image (Android):
