@@ -1,4 +1,7 @@
-# Smartphone-N-of-1-Predicting-Treatment-Success-with-Autopsy-Data
+# Predecting treatment success in N-of-1 trails based on smartphone usage data
+<img width="778" alt="Screenshot 2023-08-03 at 10 12 57 PM" src="https://github.com/abralurrahman/Smartphone-N-of-1-Predicting-Treatment-Success-with-Autopsy-Data/assets/98735630/e63b7374-78b3-4550-990e-a8fe4dfb28f2">
+
+Figure: Pipeline of "Predecting treatment success in N-of-1 trails based on smartphone usage data"
 #  Autopsy Data Collection Guideline
 
 ##  Requirements (Software needed):
