@@ -1,7 +1,7 @@
 # Predecting treatment success in N-of-1 trails based on smartphone usage data
 <img width="778" alt="Screenshot 2023-08-03 at 10 12 57 PM" src="https://github.com/abralurrahman/Smartphone-N-of-1-Predicting-Treatment-Success-with-Autopsy-Data/assets/98735630/e63b7374-78b3-4550-990e-a8fe4dfb28f2">
 
-Figure: Pipeline of "Predecting treatment success in N-of-1 trails based on smartphone usage data"
+Figure: Pipeline of "Predicting treatment success in N-of-1 trails based on smartphone usage data"
 #  Autopsy Data Collection Guideline
 
 ##  Requirements (Software needed):
@@ -32,4 +32,15 @@ If you need more detailed examination of specific data, use DB SQLite to view th
 For further analysis, you can use HxD Freeware Hex Editor and Disk Editor to view and decode specific data.
 ###  8.	Data Export (Optional):
 If you want to export specific data for further analysis outside of Autopsy, you can use the export features provided by Autopsy or DB SQLite.
+
+# Data Anonymisation Guideline
+
+## Requirements:
+1. ARX anonymisation tool (https://arx.deidentifier.org/downloads/)
+
+## Data Anonymisation step:
+1. The output of the data extraction (by Autopsy) will be used as the input of the anonymization tool.
+2. Any data containing PHI (Private Health Information) will be masked by the following regular expression.
+
+`\b[\w.+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b|\b\d+\b|\b[A-Z.\d.]{2,}\b|\b\w+\b\s+(?:street|road|st|rd|avenue|ave|lane|ln|boulevard|blvd|drive|dr|court|ct|place|pl|way|path|circle|circular|square|sq|highway|hwy|route|rte)\b`
 
